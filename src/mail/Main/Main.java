@@ -34,7 +34,7 @@ public class Main {
         switch (Opcion) {
             case 0:
                 System.out.println("Saliendo de la cuenta, redirigiendo al menu de inicio de sesion...");
-                
+                menuLogIn(); break;
             case 1: MenuOpcionesBandeja(); break;
             case 2: NuevoCorreo(); break;
             case 3: MenuOpcionesUsuario(); break;
